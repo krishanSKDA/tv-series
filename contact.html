@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="search" name="search"placeholder="search keywords">
+   <h1>NEW PAGE</h1>
+   <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam ut iste rerum temporibus vero sequi atque dignissimos, praesentium nesciunt cumque obcaecati doloribus explicabo aliquam.</P>
+ <table border="3">
+     <caption><h1>Spare parts</h1>
+     </caption>
+     <tr>
+         <th>stock numbers</th>
+         <th>Description</th>
+         <th>List price</th>
+     </tr>
+     <tr>
+         <td bgcolor="red">3476-AB</td>
+         <td>76mm socket</td>
+         <td>45.00</td>
+     </tr>
+     <tr>
+        <td>3478-AB</td>
+        <td>78mm socket</td>
+        <td>47.50</td>
+    </tr>
+    <tr>
+        <td>3480-AB</td>
+        <td>80mm socket</td>
+        <td>50.00</td>
+
+    </tr>
+ </table>
+   <h2>contact us</h2>
+   <form method="get">
+       <fieldset>
+           <legend>Personal Info</legend>
+       <p>
+        <label for="fname">first name:
+         </label> <input type="text"
+           maxlength="15" name="fname" required id="fname">
+       </p>
+       <p><lable for="lname">last name :</lable>  <input type="text" maxlength="15" name="lname" id="lname">
+    </p>
+       <p>PIN : <input type="password" maxlengh="4" name="pin1" >
+    </p>
+      GENDER:<input type="radio"name="gender" value="Male">Male
+            <input type="radio"name="gender" value="Female">Female
+            <input type="radio"name="gender" value="Null">Prefer not to mention</p>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date" name="dob"name="dob" />
+
+        </fieldset>
+        <fieldset>
+            <legend>Contact Info</legend>
+        <p>E mail:
+            <input type="email">
+        </p>
+        <p>
+            Address:<textarea name="address"id="address" rows="10"cols="20"></textarea>
+        </p>
+          
+        <p>
+            Country: <select name="country" id="country" size="3">
+                <option value="Sri lanka">Sri Lanka</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="UK">UK</option>
+                <option value="Japan">Japan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="South Korea">South Korea</option>
+                <option value="England">England</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Other</legend>
+<p><lable for="preferences">preferences:</lable><input type="checkbox" value="fantacy"name="preferences"id="preferences">Fantasy
+    <input type="checkbox" value="fantacy"name="preferences"id="preferences">Comedy
+        <input type="checkbox" value="fantacy"name="preferences"id="preferences">Action
+            <input type="checkbox" value="fantacy"name="preferences"id="preferences">Thriller
+</p>
+<p><lable for="CV">CV:</lable><input type="file" size=""name=""maxlength=""id="CV"></p>
+</fieldset>
+
+
+<p><input type="button" value="send copy"name="sendcopy">
+    <input type="submit">
+    <input type ="reset">
+     </form>   
+</body>
+</html>

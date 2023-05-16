@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow|Roboto|Tapestry');
+#photo {
+     height:600px;
+     margin: 15px;
+     float :left;
+     width: 200px;
+     background-color: rgb(128, 233, 180);
+}
+#myname, #jobtitle {
+    color: rgb(19, 14, 14);
+         
+}
+#intro{
+     float: left;
+     text-align: justify;
+     width: 1000px;
+     margin: 5px;
+     margin-top: 17px;
+}
+#aboutHead{
+    color:blue;
+    background-color:rgb(128, 233, 180) ;
+    height: 50px;
+    width: 150px;
+
+}
+body{
+     background-color: rgb(173, 196, 238);
+     font-family:"Roboto";
+}
+nav a{
+     text-decoration:none;
+     margin-right: 6px;
+     color: #000000 ;
+     border-bottom: 2px solid black;
+    
+
+
+}
+nav a:hover{
+     background-color: yellow;
+}
+#nav{
+     float: right;
+     margin-right: 250px;
+}
+     
+
+
